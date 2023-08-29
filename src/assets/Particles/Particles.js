@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
-function Particles({ className = "", quantity = 500, refresh = false }) {
+function Particles({ className = "", quantity = 200, refresh = false }) {
   const canvasRef = useRef(null);
   const context = useRef(null);
   const circles = useRef([]);
