@@ -16,7 +16,6 @@ const LandingPage = () => {
         <div className="my-16 text-xs text-gray-500 text-center animate-fade-in">
           Where Imagination thrives, design excellence redefines together.
         </div>
-        <Particles />
       </div>
       <h2 className="text-center flex  items-center justify-center  overflow-hidden space-x-2">
         <span className="text-amber-400 ">
@@ -24,6 +23,7 @@ const LandingPage = () => {
         </span>
         <span>IN PRODUCTION</span>
       </h2>
+      <Particles />
     </div>
   );
 };
