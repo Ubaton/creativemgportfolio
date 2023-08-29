@@ -1,7 +1,7 @@
 import React from "react";
 import { AlertTriangle } from "lucide-react";
 import NavBar from "@/components/NavBar/NavBar";
-import Particles from "@/assets/par/Particles";
+import Particles from "@/assets/Particles/Particles";
 
 const LandingPage = () => {
   return (
@@ -9,7 +9,7 @@ const LandingPage = () => {
       <div className="flex-col  items-center justify-center  overflow-hidden">
         <NavBar />
         <div className="flex items-center justify-center">
-          <h1 className="text-[4rem]  font-semibold">
+          <h1 className="text-[4.5rem]  font-semibold">
             Creative Mi<span className="text-red-600">nds Gra</span>phics
           </h1>
         </div>
