@@ -19,7 +19,7 @@ const LandingPage = () => {
         <Particles />
       </div>
       <h2 className="text-center flex  items-center justify-center  overflow-hidden space-x-2">
-        <span>
+        <span className="text-amber-400 ">
           <AlertTriangle />
         </span>
         <span>IN PRODUCTION</span>
