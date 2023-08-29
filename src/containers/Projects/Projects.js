@@ -1,13 +1,13 @@
 import React from "react";
 
-const About = () => {
+const Projects = () => {
   return (
     <div>
       <h1 className="flex items-center justify-center">
-        Thsi is the About Page
+        This is the projects Page
       </h1>
     </div>
   );
 };
 
-export default About;
+export default Projects;
