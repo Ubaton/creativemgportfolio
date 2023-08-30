@@ -1,4 +1,4 @@
-import Projects from "@/containers/Projects/Projectsrojects";
+import Projects from "@/containers/Projects/Projects";
 import React from "react";
 
 const projects = () => {
