@@ -15,7 +15,9 @@ const LandingPage = () => {
             </h1>
           </div>
           <div className="my-16 text-xs text-gray-500 text-center animate-fade-in">
-            Where Imagination thrives, design excellence redefines together.
+            Where Imagination Flourishes and Design Excellence Reshapes the
+            <br />
+            Possibilities, Together.
           </div>
         </div>
         <h2 className="text-center flex  items-center justify-center  overflow-hidden space-x-2"></h2>
