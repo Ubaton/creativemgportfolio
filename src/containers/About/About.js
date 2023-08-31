@@ -10,7 +10,7 @@ const About = () => {
       <Glass>
         <div className="pt-[6%] p-32">
           <h1 className="text-center font-semibold text-3xl p-4">About Us</h1>
-          <div className="about-container text-center bg-opacity-25 backdrop-blur-md bg-gradient-to-tr from-transparent via-[rgba(61,61,61,0.01)] to-transparent p-4 rounded-lg border border-opacity-25 border-gray-400 ">
+          <div className="about-container text-center bg-opacity-25 backdrop-blur-md bg-gradient-to-tr from-transparent via-[rgba(61,61,61,0.01)] to-transparent p-4 rounded-lg border border-opacity-25 border-gray-400">
             <p className="p-4">
               Welcome to Creative Minds Graphics (Pty) Ltd - your creative
               partner in the digital world. Our journey began with a simple yet
@@ -44,6 +44,20 @@ const About = () => {
               partnership that brings your brand's story to life. With Creative
               Minds Graphics (Pty) Ltd, your imagination takes center stage, and
               design becomes a powerful tool for growth and impact.
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="fixed bottom-2">
+            <p className="text-xs text-zinc-700">
+              <a className=" hover:text-zinc-400" href="">
+                Terms & Conditions{" "}
+              </a>
+              •
+              <a className=" hover:text-zinc-400" href="">
+                {" "}
+                Privacy Policy
+              </a>
             </p>
           </div>
         </div>
