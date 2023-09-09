@@ -50,7 +50,7 @@ const About = () => {
         <div className="flex items-center justify-center">
           <div className="fixed bottom-2">
             <p className="text-xs text-zinc-700">
-              <a className=" hover:text-zinc-400" href="">
+              <a className=" hover:text-zinc-400" href="/termscndconditions">
                 Terms & Conditions{" "}
               </a>
               •
