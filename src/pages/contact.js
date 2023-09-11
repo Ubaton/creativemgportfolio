@@ -1,7 +1,7 @@
 import Contact from "@/containers/Contact/Contact";
 import React from "react";
 
-const contact = () => {
+const ContactPage = () => {
   return (
     <div>
       <Contact />
@@ -9,4 +9,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default ContactPage;

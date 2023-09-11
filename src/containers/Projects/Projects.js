@@ -1,7 +1,7 @@
+import React from "react";
 import { Card } from "@/components/Card/Card";
 import Glass from "@/components/Glass/Glass";
 import { Navigation } from "@/components/Nav/Nav";
-import React from "react";
 
 const work = [
   {

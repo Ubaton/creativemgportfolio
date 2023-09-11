@@ -1,7 +1,7 @@
-import About from "@/containers/About/About";
 import React from "react";
+import About from "@/containers/About/About";
 
-const about = () => {
+const AboutPage = () => {
   return (
     <div>
       <About />
@@ -9,4 +9,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default AboutPage;

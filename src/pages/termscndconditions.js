@@ -1,7 +1,7 @@
 import React from "react";
 import TermsAndConditions from "@/components/Terms&Conditions/TermsAndConditions";
 
-const termscndconditions = () => {
+const TermsAndConditionsPage = () => {
   return (
     <div>
       <TermsAndConditions />
@@ -9,4 +9,4 @@ const termscndconditions = () => {
   );
 };
 
-export default termscndconditions;
+export default TermsAndConditionsPage;

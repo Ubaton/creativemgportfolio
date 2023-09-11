@@ -11,7 +11,9 @@ const LandingPage = () => {
           <NavBar />
           <div className="flex items-center justify-center">
             <h1 className="text-[4.5rem]  font-semibold">
-              Creative Mi<span className="text-red-600">nds Gra</span>phics
+              Creative Mi
+              <span className="text-red-600">nds Gra</span>
+              phics
             </h1>
           </div>
           <div className="my-16 text-xs text-gray-500 text-center animate-fade-in">
