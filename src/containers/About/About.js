@@ -40,9 +40,9 @@ const About = () => {
 
             <p className="p-4">
               Join us on a journey of creativity and transformation. Explore our
-              portfolio, discover our services, and let's embark on a
-              partnership that brings your brand's story to life. With Creative
-              Minds Graphics (Pty) Ltd, your imagination takes center stage, and
+              portfolio, discover our services, and lets embark on a partnership
+              that brings your brands story to life. With Creative Minds
+              Graphics (Pty) Ltd, your imagination takes center stage, and
               design becomes a powerful tool for growth and impact.
             </p>
           </div>
