@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Navigation } from "@/components/Nav/Nav";
 
 function TermsAndConditions() {
@@ -18,7 +17,7 @@ function TermsAndConditions() {
             of services. By choosing to access or employ our services, you
             consciously and unequivocally consent to these terms.
           </p>
-          
+
           <p>
             Kindly note that to partake in our services, a minimum age
             requirement of 13 years is stipulated. Furthermore, it is incumbent
@@ -26,15 +25,15 @@ function TermsAndConditions() {
             credentials, including your password, understanding the pivotal role
             they play in securing your engagement.
           </p>
-          
+
           <p>
-            It is pivotal to comprehend that our services are extended 'as is',
+            It is pivotal to comprehend that our services are extended as is,
             devoid of any warranties, expressed or implied. While we steadfastly
             endeavor to maintain the highest standards of quality, we cannot be
             held liable for any ensuing damages or losses arising from the
             utilization of our services.
           </p>
-          
+
           <p>
             Your commitment to adhering to the highest ethical standards is
             integral to our collaboration. As such, you explicitly pledge not to
@@ -43,7 +42,7 @@ function TermsAndConditions() {
             security or optimal functionality of our services are sternly
             discouraged.
           </p>
-          
+
           <p>
             In alignment with our unwavering dedication to excellence, we retain
             the prerogative to effectuate alterations to our services or, as the
@@ -51,7 +50,7 @@ function TermsAndConditions() {
             prerogative is exercised judiciously, with the objective of
             advancing the overall quality and scope of our offerings.
           </p>
-          
+
           <p>
             We, at Creative Minds Graphics (Pty) Ltd, are committed to providing
             a safe and secure environment for our users. We strictly adhere to
@@ -59,14 +58,14 @@ function TermsAndConditions() {
             same. Any violation of these terms may result in immediate
             termination of your access to our services.
           </p>
-          
+
           <p>
             We reserve the right to update these Terms of Use at any time. Any
             changes will be effective immediately upon posting to this page.
             Your continued use of our services following the posting of changes
             will constitute your acceptance of such changes.
           </p>
-          
+
           <p>
             These terms, conceived with meticulous consideration, reflect the
             mutual expectations we uphold between you, the discerning user, and
@@ -82,4 +81,3 @@ function TermsAndConditions() {
 }
 
 export default TermsAndConditions;
-
