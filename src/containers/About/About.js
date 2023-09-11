@@ -1,6 +1,7 @@
 import Glass from "@/components/Glass/Glass";
 import { Navigation } from "@/components/Nav/Nav";
 import { ArrowLeft } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -50,14 +51,14 @@ const About = () => {
         <div className="flex items-center justify-center">
           <div className="fixed bottom-2">
             <p className="text-xs text-zinc-700">
-              <a className=" hover:text-zinc-400" href="/termscndconditions">
+              <Link className=" hover:text-zinc-400" href="/termscndconditions">
                 Terms & Conditions{" "}
-              </a>
+              </Link>
               •
-              <a className=" hover:text-zinc-400" href="">
+              <Link className=" hover:text-zinc-400" href="">
                 {" "}
                 Privacy Policy
-              </a>
+              </Link>
             </p>
           </div>
         </div>
