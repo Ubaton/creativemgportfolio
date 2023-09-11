@@ -5,12 +5,12 @@ function TermsAndConditions() {
   return (
     <>
       <Navigation />
-      <div className="container pt-[6%] p-32 mx-auto text-gray-500 ">
+      <div className="container py-20 p-6 mx-auto text-gray-50">
         <h1 className="text-2xl font-semibold mb-4 text-center">
           Terms of Use
         </h1>
         <hr />
-        <div className="p-6 space-y-4 ">
+        <div className="p-4 space-y-4 ">
           <p>
             These meticulously crafted Terms of Use stand as the governing
             principles that encapsulate your interaction with our esteemed suite

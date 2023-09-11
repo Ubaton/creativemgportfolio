@@ -31,7 +31,7 @@ export default function Example() {
     <>
       <Navigation />
       <Glass>
-        <div className="m-auto pt-[10%] px-36">
+        <div className="m-auto py-20 p-6 ">
           <div className="grid grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-3 lg:gap-16">
             {socials.map((s) => (
               <div key={s.label}>
