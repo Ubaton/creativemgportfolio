@@ -7,10 +7,10 @@ const LandingPage = () => {
   return (
     <div>
       <Glass>
-        <div className="flex-col py-32 items-center justify-center  overflow-hidden">
+        <div className="flex flex-col py-32 items-center justify-center  overflow-hidden">
           <NavBar />
-          <div className="flex items-center justify-center">
-            <h1 className="text-[4.5rem]  font-semibold">
+          <div className="flex p-4 text-center items-center justify-center">
+            <h1 className="text-4xl sm:text-5xl md:text-[4.5rem] font-semibold">
               Creative Mi
               <span className="text-red-600">nds Gra</span>
               phics
