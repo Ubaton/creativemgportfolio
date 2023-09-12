@@ -10,7 +10,7 @@ function TermsAndConditions() {
           Terms of Use
         </h1>
         <hr />
-        <div className="p-4 space-y-4 ">
+        <div className="p-4 space-y-4">
           <p>
             These meticulously crafted Terms of Use stand as the governing
             principles that encapsulate your interaction with our esteemed suite

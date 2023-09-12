@@ -61,7 +61,7 @@ const About = () => {
                 Terms & Conditions{" "}
               </Link>
               •
-              <Link className=" hover:text-zinc-400" href="">
+              <Link className=" hover:text-zinc-400" href="/privacypolicy">
                 Privacy Policy
               </Link>
             </p>
