@@ -31,10 +31,13 @@ export default function Example() {
     <>
       <Navigation />
       <Glass>
-        <div className="m-auto py-20 p-6 ">
-          <div className="grid grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-3 lg:gap-16">
+        <div className="m-auto py-24">
+          <div className="grid grid-cols-1 mx-auto md:px-8 sm:mt-0 sm:grid-cols-3 sm:px-24">
             {socials.map((s) => (
-              <div key={s.label}>
+              <div
+                className="flex items-center justify-center p-4"
+                key={s.label}
+              >
                 <Card>
                   <Link href={s.href} target="_blank">
                     <li className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16">
