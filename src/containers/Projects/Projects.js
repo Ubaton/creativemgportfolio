@@ -11,6 +11,7 @@ const work = [
       "A leading design and creative agency specializing in web development, graphic design, video editing, and branding strategies. We turn your ideas into captivating visual experiences.",
     year: 2011,
     project: "Project X",
+    // image: "../../assets/images/cmg.png",
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -34,7 +35,7 @@ const work = [
     description:
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
-    project: "Project Z",
+    project: "Project A",
   },
 ];
 
@@ -66,6 +67,7 @@ const Projects = () => {
                       <Card>
                         <div className="p-4">
                           <h1 className="text-lg font-semibold">{w.title}</h1>
+                          {/* <img src={w.image} alt={w.title} /> */}
                           <p className="text-sm">{w.description}</p>
                           <hr className="my-2"></hr>
                           <p className="text-xs text-gray-600">{w.year}</p>
