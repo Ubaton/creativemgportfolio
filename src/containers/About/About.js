@@ -62,6 +62,7 @@ const About = () => {
               </Link>
               •
               <Link className=" hover:text-zinc-400" href="/privacypolicy">
+                {" "}
                 Privacy Policy
               </Link>
             </p>
