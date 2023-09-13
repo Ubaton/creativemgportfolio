@@ -2,46 +2,19 @@ import React from "react";
 import { Card } from "@/components/Card/Card";
 import Glass from "@/components/Glass/Glass";
 import { Navigation } from "@/components/Nav/Nav";
-
-const work = [
-  {
-    title: "Creative Minds Graphics (Pty) Ltd",
-    category: "Graphic Design",
-    description:
-      "A leading design and creative agency specializing in web development, graphic design, video editing, and branding strategies. We turn your ideas into captivating visual experiences.",
-    year: 2011,
-    project: "Project X",
-    // image: "../../assets/images/cmg.png",
-  },
-  {
-    title: "Creative Minds Graphics (Pty) Ltd",
-    category: "Web Development",
-    description:
-      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
-    year: 2019,
-    project: "Project Y",
-  },
-  {
-    title: "Creative Minds Graphics (Pty) Ltd",
-    category: "Graphic Design",
-    description:
-      "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
-    year: 2021,
-    project: "Project Z",
-  },
-  {
-    title: "Creative Minds Graphics (Pty) Ltd",
-    category: "Projects",
-    description:
-      "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
-    year: 2021,
-    project: "Project A",
-  },
-];
+import work from "./workData";
+import { AlertTriangle } from "lucide-react";
 
 const Projects = () => {
   // Get unique categories from the work items
   const uniqueCategories = [...new Set(work.map((w) => w.category))];
+
+  // Create a mapping of category names to image URLs
+  const categoryImages = {
+    "Graphic Design": "/assets/images/graphicdesign.png",
+    "Web Development": "/assets/images/webdev.png",
+    Projects: "/assets/images/projects.png",
+  };
 
   return (
     <>
@@ -67,7 +40,12 @@ const Projects = () => {
                       <Card>
                         <div className="p-4">
                           <h1 className="text-lg font-semibold">{w.title}</h1>
-                          {/* <img src={w.image} alt={w.title} /> */}
+                          {/* <img
+                            src={categoryImages[category]} 
+                            alt={w.title}
+                            width={"300px"}
+                            height={"100px"}
+                          /> */}
                           <p className="text-sm">{w.description}</p>
                           <hr className="my-2"></hr>
                           <p className="text-xs text-gray-600">{w.year}</p>
@@ -79,6 +57,12 @@ const Projects = () => {
               </div>
             </div>
           ))}
+          <p className="flex items-center justify-center text-amber-400 text-center">
+            <span className="px-2">
+              <AlertTriangle />
+            </span>{" "}
+            IN PRODUCTION
+          </p>
         </div>
       </Glass>
     </>
