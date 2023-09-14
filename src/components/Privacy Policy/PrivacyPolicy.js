@@ -12,6 +12,7 @@ function PrivacyPolicy() {
             <h1 className="text-2xl font-semibold mb-4 text-center">
               Privacy Policy
             </h1>
+            <hr />
             <div className="p-4 space-y-4">
               <p>
                 Privacy is a fundamental value upheld by Creative Minds Graphics
