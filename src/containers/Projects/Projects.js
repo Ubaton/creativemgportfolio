@@ -40,12 +40,12 @@ const Projects = () => {
                       <Card>
                         <div className="p-4">
                           <h1 className="text-lg font-semibold">{w.title}</h1>
-                          {/* <img
-                            src={categoryImages[category]} 
+                          <img
+                            src={categoryImages[category]}
                             alt={w.title}
                             width={"300px"}
                             height={"100px"}
-                          /> */}
+                          />
                           <p className="text-sm">{w.description}</p>
                           <hr className="my-2"></hr>
                           <p className="text-xs text-gray-600">{w.year}</p>
