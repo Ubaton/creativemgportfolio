@@ -6,20 +6,6 @@
 
 * {
   font-family: "Ubuntu", sans-serif;
-
-  /* Customize scrollbar */
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #48484800;
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #48484800;
-  }
 }
 
 :root {

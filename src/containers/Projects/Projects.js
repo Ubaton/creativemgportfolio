@@ -21,7 +21,7 @@ const Projects = () => {
       <Navigation />
       <Glass>
         <div className="overflow-y-auto max-h-screen py-20">
-          <h1 className="text-center text-4xl font-semibold">Projects</h1>
+          <h1 className="text-center text-4xl font-semibold">Projects Space</h1>
 
           {/* Render category sections with dividers */}
           {uniqueCategories.map((category, categoryIndex) => (

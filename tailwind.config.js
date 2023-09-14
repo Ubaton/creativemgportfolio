@@ -18,4 +18,5 @@ module.exports = {
     },
   },
   plugins: [],
+  postcss: require("./postcss.config.js"),
 };
