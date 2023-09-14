@@ -16,7 +16,7 @@ const About = () => {
               bg-gradient-to-tr from-transparent via-[rgba(61,61,61,0.01)] to-transparent
               p-2 sm:p-4 md:p-6 lg:p-8 xl:p-10
               text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl
-              rounded-lg border border-opacity-25 border-gray-400"
+              rounded-lg border border-opacity-25 border-zinc-400"
           >
             <p>
               Welcome to Creative Minds Graphics (Pty) Ltd - your creative
