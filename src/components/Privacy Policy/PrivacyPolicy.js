@@ -7,7 +7,7 @@ function PrivacyPolicy() {
     <>
       <Navigation />
       <Glass>
-        <div className="container py-20 p-6 mx-auto text-gray-50">
+        <div className="overflow-y-auto max-h-screen py-20 p-6 mx-auto text-gray-50">
           <h1 className="text-2xl font-semibold mb-4 text-center">
             Privacy Policy
           </h1>
