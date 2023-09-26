@@ -33,13 +33,13 @@ const Projects = () => {
                       <Card>
                         <div className="p-4">
                           <h1 className="text-lg font-semibold">{w.title}</h1>
-                          <div className="flex items-center justify-center">
+                          <div className="flex items-center justify-center rounded-lg">
                             <Image
-                              className="p-2 rounded-lg"
+                              className="rounded-lg"
                               src={w.image}
                               alt={w.title}
-                              width={100}
-                              height={100}
+                              width={300}
+                              height={200}
                             />
                           </div>
                           <p className="text-sm">{w.description}</p>
