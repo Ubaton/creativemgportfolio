@@ -1,3 +1,5 @@
+import QRCode from "../../assets/images/favicon.ico";
+
 const work = [
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -6,7 +8,7 @@ const work = [
       "A leading design and creative agency specializing in web development, graphic design, video editing, and branding strategies. We turn your ideas into captivating visual experiences.",
     year: 2011,
     project: "Project X",
-    image: "/assets/images/cmg.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -15,7 +17,7 @@ const work = [
       "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
     year: 2019,
     project: "Project Y",
-    image: "/assets/images/webdev.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -24,7 +26,7 @@ const work = [
       "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
     year: 2019,
     project: "Project Y",
-    image: "/assets/images/webdev.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -33,7 +35,7 @@ const work = [
       "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
     year: 2019,
     project: "Project Y",
-    image: "/assets/images/webdev.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -42,7 +44,7 @@ const work = [
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
     project: "Project Z",
-    image: "/assets/images/graphicdesign.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -51,7 +53,7 @@ const work = [
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
     project: "Project Z",
-    image: "/assets/images/graphicdesign.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -60,7 +62,7 @@ const work = [
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
     project: "Project A",
-    image: "/assets/images/projects.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -69,7 +71,7 @@ const work = [
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
     project: "Project A",
-    image: "/assets/images/projects.png",
+    image: QRCode,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
@@ -78,7 +80,7 @@ const work = [
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
     project: "Project A",
-    image: "/assets/images/projects.png",
+    image: QRCode,
   },
 ];
 
