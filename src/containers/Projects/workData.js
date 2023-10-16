@@ -1,38 +1,38 @@
 import QRCode from "../../assets/images/favicon.ico";
 import Creative from "../../assets/images/Creative.jpg";
-import Creative01 from "../../assets/images/ProtfolioImages/CMG_GD01.jpeg";
-import Creative02 from "../../assets/images/ProtfolioImages/CMG_GD02.jpeg";
-import Creative03 from "../../assets/images/ProtfolioImages/CMG_GD03.jpeg";
-import Creative04 from "../../assets/images/ProtfolioImages/CMG_GD04.jpeg";
-import Creative05 from "../../assets/images/ProtfolioImages/CMG_GD05.jpeg";
-import Creative06 from "../../assets/images/ProtfolioImages/CMG_GD06.jpeg";
-import Creative07 from "../../assets/images/ProtfolioImages/CMG_GD07.jpeg";
-import Creative08 from "../../assets/images/ProtfolioImages/CMG_GD08.jpeg";
-import Creative09 from "../../assets/images/ProtfolioImages/CMG_GD09.jpeg";
-import Creative10 from "../../assets/images/ProtfolioImages/CMG_GD010.jpeg";
-import Creative11 from "../../assets/images/ProtfolioImages/CMG_GD011.jpeg";
-import Creative12 from "../../assets/images/ProtfolioImages/CMG_GD012.jpeg";
-import Creative13 from "../../assets/images/ProtfolioImages/CMG_GD013.jpeg";
-import Creative14 from "../../assets/images/ProtfolioImages/CMG_GD014.jpeg";
-import Creative15 from "../../assets/images/ProtfolioImages/CMG_GD015.jpeg";
-import Creative16 from "../../assets/images/ProtfolioImages/CMG_GD016.jpeg";
-import Creative17 from "../../assets/images/ProtfolioImages/CMG_GD017.jpeg";
+import Creative01 from "../../assets/images/3DImages/CMG_GD01.jpeg";
+import Creative02 from "../../assets/images/3DImages/CMG_GD02.jpeg";
+import Creative03 from "../../assets/images/3DImages/CMG_GD03.jpeg";
+import Creative04 from "../../assets/images/3DImages/CMG_GD04.jpeg";
+import Creative05 from "../../assets/images/3DImages/CMG_GD05.jpeg";
+import Creative06 from "../../assets/images/3DImages/CMG_GD06.jpeg";
+import Creative07 from "../../assets/images/3DImages/CMG_GD07.jpeg";
+import Creative08 from "../../assets/images/3DImages/CMG_GD08.jpeg";
+import Creative09 from "../../assets/images/3DImages/CMG_GD09.jpeg";
+import Creative10 from "../../assets/images/3DImages/CMG_GD010.jpeg";
+import Creative11 from "../../assets/images/3DImages/CMG_GD011.jpeg";
+import Creative12 from "../../assets/images/3DImages/CMG_GD012.jpeg";
+import Creative13 from "../../assets/images/3DImages/CMG_GD013.jpeg";
+import Creative14 from "../../assets/images/3DImages/CMG_GD014.jpeg";
+import Creative15 from "../../assets/images/3DImages/CMG_GD015.jpeg";
+import Creative16 from "../../assets/images/3DImages/CMG_GD016.jpeg";
+import Creative17 from "../../assets/images/3DImages/CMG_GD017.jpeg";
 
 const work = [
   {
     title: "Creative Minds Graphics (Pty) Ltd",
     category: "Graphic Design",
     description:
-      "A leading design and creative agency specializing in web development, graphic design, video editing, and branding strategies. We turn your ideas into captivating visual experiences.",
+      "In the arid desert expanse of Egypt, a fierce battle unfolds, characterized by a clash of tanks and armored vehicles. The opposing forces, known as the Red and Blue armies, engage in a relentless and intense war, transforming the barren landscape into a theater of conflict and determination",
     year: 2011,
-    project: "Project X",
+    project: "Project 3D Model-B",
     image: Creative01,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
     category: "Graphic Design",
     description:
-      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+      "An arid desert landscape in Egypt, featuring the iconic pyramids in the background. In the foreground, there's a picturesque scene with a serene lake surrounded by lush palm trees, creating a striking contrast to the desert terrain. This image beautifully encapsulates the unique and diverse natural and historical elements of Egypt.",
     year: 2019,
     project: "Project 3D Model-B",
     image: Creative02,

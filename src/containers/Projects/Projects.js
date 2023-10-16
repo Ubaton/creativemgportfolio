@@ -42,7 +42,7 @@ const Projects = () => {
                               height={200}
                             />
                           </div>
-                          <p className="text-sm">{w.description}</p>
+                          <p className="text-sm pt-2">{w.description}</p>
                           <hr className="my-2"></hr>
                           <p className="text-xs text-gray-600">{w.year}</p>
                           <p>{w.project}</p>
