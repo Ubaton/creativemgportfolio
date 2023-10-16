@@ -17,6 +17,13 @@ import Creative14 from "../../assets/images/3DImages/CMG_GD014.jpeg";
 import Creative15 from "../../assets/images/3DImages/CMG_GD015.jpeg";
 import Creative16 from "../../assets/images/3DImages/CMG_GD016.jpeg";
 import Creative17 from "../../assets/images/3DImages/CMG_GD017.jpeg";
+import Creative18 from "../../assets/images/PosterImages/CMG_GD018.jpg";
+import Creative19 from "../../assets/images/PosterImages/CMG_GD019.jpg";
+import Creative20 from "../../assets/images/PosterImages/CMG_GD020.jpg";
+import Creative21 from "../../assets/images/PosterImages/CMG_GD021.jpg";
+import Creative22 from "../../assets/images/PosterImages/CMG_GD022.jpg";
+import Creative23 from "../../assets/images/PosterImages/CMG_GD023.jpg";
+import Creative24 from "../../assets/images/PosterImages/CMG_GD024.jpg";
 
 const work = [
   {
@@ -171,6 +178,78 @@ const work = [
     year: 2019,
     project: "Project 3D Model-B",
     image: Creative17,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Graphic Design",
+    description:
+      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+    year: 2019,
+    project: "Poster Project-GD",
+    image: Creative18,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Graphic Design",
+    description:
+      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+    year: 2019,
+    project: "Poster Project-GD",
+    image: Creative19,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Graphic Design",
+    description:
+      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+    year: 2019,
+    project: "Poster Project-GD",
+    image: Creative20,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Graphic Design",
+    description:
+      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+    year: 2019,
+    project: "Poster Project-GD",
+    image: Creative21,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Graphic Design",
+    description:
+      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+    year: 2019,
+    project: "Poster Project-GD",
+    image: Creative22,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Graphic Design",
+    description:
+      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+    year: 2019,
+    project: "Poster Project-GD",
+    image: Creative23,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Graphic Design",
+    description:
+      "An innovative tech startup focused on developing cutting-edge software solutions for businesses. We're committed to driving digital transformation.",
+    year: 2019,
+    project: "Poster Project-GD",
+    image: Creative24,
+  },
+  {
+    title: "Creative Minds Graphics (Pty) Ltd",
+    category: "Web Development",
+    description:
+      "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
+    year: 2021,
+    project: "Project Z",
+    image: Creative,
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
