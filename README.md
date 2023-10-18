@@ -1,5 +1,6 @@
 <h1>Creayive Minds Graphics (Pty) Ltd</h1>
-https://github.com/Ubaton/creativemgportfolio/blob/master/src/assets/images/The%20Project%20Portfolio.png
+
+<img src="https://github.com/Ubaton/creativemgportfolio/blob/master/src/assets/images/The%20Project%20Portfolio.png" alt=""/>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
