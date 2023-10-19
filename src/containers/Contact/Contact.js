@@ -1,5 +1,6 @@
 import Particles from "@/assets/Particles/Particles";
 import { Card } from "@/components/Card/Card";
+import FloatingChatIcon from "@/components/Chat/ChatLink";
 import Glass from "@/components/Glass/Glass";
 import { Navigation } from "@/components/Nav/Nav";
 import { Github, Twitter, Mail, Facebook, Instagram } from "lucide-react";
@@ -55,6 +56,7 @@ export default function Example() {
               </div>
             ))}
           </div>
+          <FloatingChatIcon />
           <Particles />
         </div>
       </Glass>
