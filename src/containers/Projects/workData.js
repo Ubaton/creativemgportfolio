@@ -179,7 +179,7 @@ const work = [
     image: Creative17,
   },
   {
-    title: "Buffet Entertainment Poste",
+    title: "Buffet Entertainment Poster",
     category: "Graphic Design",
     description:
       "Created a captivating Buffet Entertainment poster, uniting food lovers. Our graphic design masterpiece promises a delectable feast for all, celebrating the joy of communal dining. Join us in savoring exquisite flavors and forging connections. Don't miss this gastronomic delight!",
