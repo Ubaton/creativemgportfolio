@@ -247,7 +247,7 @@ const work = [
     description:
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
-    project: "Project Z",
+    project: "Web Development",
     image: Creative,
   },
   {
@@ -256,7 +256,7 @@ const work = [
     description:
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
-    project: "Project Z",
+    project: "Web Development",
     image: Creative,
   },
   {
@@ -265,7 +265,7 @@ const work = [
     description:
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
-    project: "Project Z",
+    project: "Web Development",
     image: Creative,
   },
   {
