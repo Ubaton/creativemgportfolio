@@ -4,7 +4,9 @@ import { ArrowLeft } from "lucide-react";
 import work from "../../containers/Projects/workData";
 import Image from "next/image";
 import Glass from "@/components/Glass/Glass";
-import { Navigation } from "@/components/Nav/Nav";
+
+import ProjectNotFound from "@/components/ProjectNotFound/ProjectNotFound";
+
 import Link from "next/link";
 
 const ProjectDetails = () => {
@@ -14,7 +16,11 @@ const ProjectDetails = () => {
   const projectIndex = parseInt(projectId, 10);
 
   if (isNaN(projectIndex) || projectIndex < 0 || projectIndex >= work.length) {
-    return <p>Project not found</p>;
+    return (
+      <p>
+        <ProjectNotFound />
+      </p>
+    );
   }
 
   const project = work[projectIndex];

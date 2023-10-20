@@ -11,70 +11,58 @@ const Projects = () => {
   // Get unique categories from the work items
   const uniqueCategories = [...new Set(work.map((w) => w.category))];
 
-  // Function to handle smooth scrolling
-  const smoothScroll = (target) => {
-    const element = document.getElementById(target);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <>
       <Navigation />
       <Glass>
         <div className="overflow-y-auto max-h-screen py-20">
-          <span onClick={() => smoothScroll(`project-${index}`)}>
-            <h1 className="text-center text-4xl font-semibold">
-              Projects Space
-            </h1>
+          <h1 className="text-center text-4xl font-semibold">Projects Space</h1>
 
-            {/* Render category sections with dividers */}
-            {uniqueCategories.map((category, categoryIndex) => (
-              <div key={category}>
-                {categoryIndex !== 0 && (
-                  <hr className="my-6 border-t-2 border-zinc-800 mx-20 " />
-                )}
-                <h1 className="text-center text-2xl font-semibold mt-8">
-                  {category}
-                </h1>
-                <div className="flex flex-wrap justify-center">
-                  {work
-                    .filter((w) => w.category === category)
-                    .map((w, index) => (
-                      <div className="px-4 py-4" key={index}>
-                        <Link href={`/projects/${index}`}>
-                          <Card id={`project-${index}`}>
-                            {(w.category === "Web Development" ||
-                              w.category === "Projects") && <Badge />}
+          {/* Render category sections with dividers */}
+          {uniqueCategories.map((category, categoryIndex) => (
+            <div key={category}>
+              {categoryIndex !== 0 && (
+                <hr className="my-6 border-t-2 border-zinc-800 mx-20 " />
+              )}
+              <h1 className="text-center text-2xl font-semibold mt-8">
+                {category}
+              </h1>
+              <div className="flex flex-wrap justify-center">
+                {work
+                  .filter((w) => w.category === category)
+                  .map((w, index) => (
+                    <div className="px-4 py-4" key={index}>
+                      <Link href={`/projects/${index}`}>
+                        <Card>
+                          {(w.category === "Web Development" ||
+                            w.category === "Projects") && <Badge />}
 
-                            <div className="p-4">
-                              <h1 className="text-lg font-semibold pb-2">
-                                {w.title}
-                              </h1>
-                              <div className="flex items-center justify-center rounded-lg">
-                                <Image
-                                  className="rounded-lg"
-                                  src={w.image}
-                                  alt={w.title}
-                                  width={300}
-                                  height={200}
-                                  priority={true}
-                                />
-                              </div>
-                              <p className="text-sm pt-2">{w.description}</p>
-                              <hr className="my-2"></hr>
-                              <p className="text-xs text-gray-600">{w.year}</p>
-                              <p>{w.project}</p>
+                          <div className="p-4">
+                            <h1 className="text-lg font-semibold pb-2">
+                              {w.title}
+                            </h1>
+                            <div className="flex items-center justify-center rounded-lg">
+                              <Image
+                                className="rounded-lg"
+                                src={w.image}
+                                alt={w.title}
+                                width={300}
+                                height={200}
+                                priority={true}
+                              />
                             </div>
-                          </Card>
-                        </Link>
-                      </div>
-                    ))}
-                </div>
+                            <p className="text-sm pt-2">{w.description}</p>
+                            <hr className="my-2"></hr>
+                            <p className="text-xs text-gray-600">{w.year}</p>
+                            <p>{w.project}</p>
+                          </div>
+                        </Card>
+                      </Link>
+                    </div>
+                  ))}
               </div>
-            ))}
-          </span>
+            </div>
+          ))}
         </div>
       </Glass>
     </>
