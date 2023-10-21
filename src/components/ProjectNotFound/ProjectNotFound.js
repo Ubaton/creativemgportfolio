@@ -1,4 +1,4 @@
-import Particles from "@/assets/Particles/Particles";
+import Particles from "../../assets/Particles/Particles";
 import Link from "next/link";
 import React from "react";
 import Glass from "../Glass/Glass";
