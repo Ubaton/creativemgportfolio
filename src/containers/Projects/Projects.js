@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Card } from "@/components/Card/Card"; // Update with correct paths
-import Glass from "@/components/Glass/Glass"; // Update with correct paths
-import { Navigation } from "@/components/Nav/Nav"; // Update with correct paths
-import work from "./workData"; // Import your work data or update the path
-import Badge from "../../components/Badge/Badge"; // Update with correct path
+import { Card } from "@/components/Card/Card";
+import Glass from "@/components/Glass/Glass";
+import { Navigation } from "@/components/Nav/Nav";
+import work from "./workData";
+import Badge from "../../components/Badge/Badge";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,7 +39,7 @@ const Projects = () => {
             >
               <option value="">All Categories</option>
               {uniqueCategories.map((category) => (
-                <option key={category} value={category}>
+                <option className="bg-zinc-100" key={category} value={category}>
                   {category}
                 </option>
               ))}
