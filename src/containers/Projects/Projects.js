@@ -23,6 +23,18 @@ const Projects = () => {
     });
   };
 
+  // Function to truncate the description
+  function truncateDescription(description, maxWords) {
+    const words = description.split(" ");
+
+    if (words.length > maxWords) {
+      const truncatedDescription = words.slice(0, maxWords).join(" ");
+      return `${truncatedDescription} ...`;
+    }
+
+    return description;
+  }
+
   return (
     <>
       <Navigation />
@@ -82,7 +94,9 @@ const Projects = () => {
                                     priority={true}
                                   />
                                 </div>
-                                <p className="text-sm pt-2">{w.description}</p>
+                                <p className="text-sm pt-2">
+                                  {truncateDescription(w.description, 20)}
+                                </p>
                                 <hr className="my-2"></hr>
                                 <p className="text-xs text-gray-600">
                                   {w.year}
