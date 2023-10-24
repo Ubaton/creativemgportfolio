@@ -243,11 +243,11 @@ const work = [
     image: Creative24,
   },
   {
-    title: "Creative Minds Graphics (Pty) Ltd",
+    title: "QR Code Generator",
     category: "Web Development",
     description:
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
-    year: 2021,
+    year: 2023,
     project: "Web Development",
     image: Web001,
     url: "url('https://creativemindsgraphic-qrcode-generator.netlify.app/')",
@@ -257,7 +257,7 @@ const work = [
     category: "Web Development",
     description:
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
-    year: 2021,
+    year: 2023,
     project: "Web Development",
     image: Creative,
   },
@@ -266,7 +266,7 @@ const work = [
     category: "Web Development",
     description:
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
-    year: 2021,
+    year: 2023,
     project: "Web Development",
     image: Creative,
   },
