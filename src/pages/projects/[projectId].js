@@ -17,9 +17,9 @@ const ProjectDetails = () => {
 
   if (isNaN(projectIndex) || projectIndex < 0 || projectIndex >= work.length) {
     return (
-      <p>
+      <div>
         <ProjectNotFound />
-      </p>
+      </div>
     );
   }
 
