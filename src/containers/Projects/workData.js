@@ -24,6 +24,7 @@ import Creative21 from "../../assets/images/PosterImages/CMG_GD021.jpg";
 import Creative22 from "../../assets/images/PosterImages/CMG_GD022.jpg";
 import Creative23 from "../../assets/images/PosterImages/CMG_GD023.jpg";
 import Creative24 from "../../assets/images/PosterImages/CMG_GD024.jpg";
+import Web001 from "../../assets/images/Web/CMG_QRcodeG.png";
 
 const work = [
   {
@@ -248,7 +249,8 @@ const work = [
       "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
     year: 2021,
     project: "Web Development",
-    image: Creative,
+    image: Web001,
+    url: "url('https://creativemindsgraphic-qrcode-generator.netlify.app/')",
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
