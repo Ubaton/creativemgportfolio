@@ -18,7 +18,7 @@ function TermsAndConditions() {
             </h1>
             <hr />
             <p className="text-xs text-zinc-700">{updatedate.date}</p>
-            <div className="p-4 space-y-4">
+            {/* <div className="p-4 space-y-4">
               <p className="text-center">
                 Welcome to Creative Minds Graphics (Pty) Ltd! We are excited to
                 work with you on your website development, 3D digital art, photo
@@ -27,23 +27,23 @@ function TermsAndConditions() {
                 proceeding.
               </p>
 
-              {/* <h2 className="text-2xl">1: Introduction</h2>
+              <h2 className="text-2xl">1: Introduction</h2>
               <p className="pl-8">
                 Welcome to Creative Minds Graphics (Pty) Ltd (hereinafter
-                (Creative Minds), (we), (us), or (our)). These terms and
-                conditions (hereinafter (Terms)) govern your access to and use
-                of our products and services, including our website and any
-                content, information, or materials made available through our
-                website or other channels (hereinafter (Services)).
-              </p> */}
+                (Creative Minds), (we), (us), or (our)). These terms and conditions
+                (hereinafter (Terms)) govern your access to and use of our
+                products and services, including our website and any content,
+                information, or materials made available through our website or
+                other channels (hereinafter (Services)).
+              </p>
 
-              {/* <p className="pl-8">
+              <p className="pl-8">
                 <strong>Scope of Work</strong>: Our company will provide the
                 services specified in the agreed-upon contract between Creative
                 Minds Graphics (Pty) Ltd and the client. Any additional services
                 requested outside the contract’s scope will be subject to
                 additional fees.
-              </p> */}
+              </p>
 
               <p className="pl-8">
                 These meticulously crafted Terms and Conditions stand as the
@@ -146,14 +146,14 @@ function TermsAndConditions() {
               </p>
 
               <h2 className="text-2xl">4: Our Products and Services</h2>
-              {/* <p className="pl-8">
+              <p className="pl-8">
                 We offer a range of products and services, including website
                 development, 3D digital art, photo editing, and video editing.
                 Our products and services are provided on an (as is) and (as
                 available) basis, and we do not make any representations or
                 warranties of any kind, express or implied, regarding the
                 quality, accuracy, or completeness of our products or services.
-              </p> */}
+              </p>
 
               <h2 className="text-2xl">5: Intellectual Property</h2>
               <p className="pl-8">
@@ -385,7 +385,7 @@ function TermsAndConditions() {
                 <strong>IN WITNESS WHEREOF</strong>, the parties have executed
                 this Contract as of the date first above written.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </Glass>
