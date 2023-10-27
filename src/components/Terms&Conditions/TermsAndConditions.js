@@ -30,11 +30,12 @@ function TermsAndConditions() {
               <h2 className="text-2xl">1: Introduction</h2>
               <p className="pl-8">
                 Welcome to Creative Minds Graphics (Pty) Ltd (hereinafter
-                (Creative Minds), (we), (us), or (our)). These terms and
-                conditions (hereinafter (Terms)) govern your access to and use
-                of our products and services, including our website and any
-                content, information, or materials made available through our
-                website or other channels (hereinafter (Services)).
+                &quot;Creative Minds&quot;, &quot;we&quot;, &quot;us&quot;, or
+                &quot;our&quot;). These terms and conditions (hereinafter
+                &quot;Terms&quot;) govern your access to and use of our products
+                and services, including our website and any content,
+                information, or materials made available through our website or
+                other channels (hereinafter &quot;Services&quot;).
               </p>
 
               <p className="pl-8">
@@ -120,20 +121,24 @@ function TermsAndConditions() {
                 authorized to access or use our Services.
               </p>
 
-              <p className="pl-8">
-                Payment: Payment for our services is due upon completion of the
-                project. We accept payment by credit card, bank transfer, or
-                check. If payment is not received within 30 days (about 4 and a
-                half weeks) of the project’s completion, a late fee of 10% of
-                the total cost will be added.
-              </p>
+              <ul>
+                <span className="text-2xl">Payment:</span>
+                <li className="pl-8 pb-4">
+                  Payment for our services is due upon completion of the
+                  project. We accept payment by credit card, bank transfer, or
+                  check. If payment is not received within 30 days (about 4 and
+                  a half weeks) of the project&rsquo;s completion, a late fee of
+                  10% of the total cost will be added.
+                </li>
 
-              <p className="pl-8">
-                Refunds: Creative Minds Graphics (Pty) Ltd does not offer
-                refunds for any of our services. If the client is not satisfied
-                with the final product, we will work with the client to make any
-                necessary revisions within the scope of the original contract.
-              </p>
+                <span className="text-2xl">Refunds:</span>
+                <li className="pl-8">
+                  Creative Minds Graphics (Pty) Ltd does not offer refunds for
+                  any of our services. If the client is not satisfied with the
+                  final product, we will work with the client to make any
+                  necessary revisions within the scope of the original contract.
+                </li>
+              </ul>
 
               <h2 className="text-2xl">3: Changes to Terms</h2>
               <p className="pl-8">
@@ -330,17 +335,18 @@ function TermsAndConditions() {
               </h3>
 
               <p className="pl-8">
-                This contract (Contract) is entered into on the date of
-                acceptance by the Client and Creative Minds Graphics (Pty) Ltd,
-                a company organized under the laws of South Africa (Company).
+                This contract (&quot;Contract&quot;) is entered into on the date
+                of acceptance by the Client and Creative Minds Graphics (Pty)
+                Ltd, a company organized under the laws of South Africa
+                (&quot;Company&quot;).
               </p>
 
               <p className="pl-8">
                 1. <strong>Services</strong>. The Company agrees to provide the
                 Client with digital arts/graphics design services as specified
-                in Exhibit A attached hereto (the Services). The Client agrees
-                to pay the Company the fees set forth in Exhibit A for the
-                Services.
+                in Exhibit A attached hereto (the &quot;Services&quot;). The
+                Client agrees to pay the Company the fees set forth in Exhibit A
+                for the Services.
               </p>
 
               <p className="pl-8">
@@ -357,7 +363,7 @@ function TermsAndConditions() {
                 Company under this Contract, including but not limited to any
                 copyright, trademark, or trade secret rights. The Client shall
                 not use or reproduce the digital arts/graphics in any manner
-                that would infringe on the Companys intellectual property
+                that would infringe on the Company&rsquo;s intellectual property
                 rights.
               </p>
 
