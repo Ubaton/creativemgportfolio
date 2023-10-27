@@ -3,6 +3,10 @@ import { Navigation } from "@/components/Nav/Nav";
 import Glass from "../Glass/Glass";
 
 function PrivacyPolicy() {
+  const updatedate = {
+    date: "2023/10/27",
+  };
+
   return (
     <>
       <Navigation />
@@ -13,6 +17,7 @@ function PrivacyPolicy() {
               Privacy Policy
             </h1>
             <hr />
+            <p className="text-xs text-zinc-700">{updatedate.date}</p>
             <div className="p-4 space-y-4">
               <p>
                 Privacy is a fundamental value upheld by Creative Minds Graphics
