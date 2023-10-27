@@ -30,18 +30,20 @@ function TermsAndConditions() {
               <h2 className="text-2xl">1: Introduction</h2>
               <p className="pl-8">
                 Welcome to Creative Minds Graphics (Pty) Ltd (hereinafter
-                “Creative Minds,” “we,” “us,” or “our”). These terms and
-                conditions (hereinafter “Terms”) govern your access to and use
-                of our products and services, including our website and any
-                content, information, or materials made available through our
-                website or other channels (hereinafter “Services”).
+                &ldquo;Creative Minds,&rdquo; &ldquo;we,&rdquo;
+                &ldquo;us,&rdquo; or &ldquo;our&rdquo;). These terms and
+                conditions (hereinafter &ldquo;Terms&rdquo;) govern your access
+                to and use of our products and services, including our website
+                and any content, information, or materials made available
+                through our website or other channels (hereinafter
+                &ldquo;Services&rdquo;).
               </p>
 
               <p className="pl-8">
-                <strong>Scope of Work</strong>: Our company will provide the
+                &ldquo;Scope of Work&rdquo;: Our company will provide the
                 services specified in the agreed-upon contract between Creative
                 Minds Graphics (Pty) Ltd and the client. Any additional services
-                requested outside the contracts scope will be subject to
+                requested outside the contract&rsquo;s scope will be subject to
                 additional fees.
               </p>
 
@@ -149,10 +151,11 @@ function TermsAndConditions() {
               <p className="pl-8">
                 We offer a range of products and services, including website
                 development, 3D digital art, photo editing, and video editing.
-                Our products and services are provided on an “as is” and “as
-                available” basis, and we do not make any representations or
-                warranties of any kind, express or implied, regarding the
-                quality, accuracy, or completeness of our products or services.
+                Our products and services are provided on an &ldquo;as is&rdquo;
+                and &ldquo;as available&rdquo; basis, and we do not make any
+                representations or warranties of any kind, express or implied,
+                regarding the quality, accuracy, or completeness of our products
+                or services.
               </p>
 
               <h2 className="text-2xl">5: Intellectual Property</h2>
