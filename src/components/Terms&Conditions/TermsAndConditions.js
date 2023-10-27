@@ -41,7 +41,7 @@ function TermsAndConditions() {
                 <strong>Scope of Work</strong>: Our company will provide the
                 services specified in the agreed-upon contract between Creative
                 Minds Graphics (Pty) Ltd and the client. Any additional services
-                requested outside the contract’s scope will be subject to
+                requested outside the contracts scope will be subject to
                 additional fees.
               </p>
 
@@ -124,8 +124,8 @@ function TermsAndConditions() {
                 Payment: Payment for our services is due upon completion of the
                 project. We accept payment by credit card, bank transfer, or
                 check. If payment is not received within 30 days (about 4 and a
-                half weeks) of the project’s completion, a late fee of 10% of
-                the total cost will be added.
+                half weeks) of the projects completion, a late fee of 10% of the
+                total cost will be added.
               </p>
 
               <p className="pl-8">
@@ -178,7 +178,7 @@ function TermsAndConditions() {
               <p className="pl-8">
                 You agree to indemnify and hold Creative Minds and our
                 affiliates, officers, agents, and employees harmless from any
-                claim or demand, including reasonable attorneys’ fees, made by
+                claim or demand, including reasonable attorneys fees, made by
                 any third party due to or arising out of your use of our
                 Services, your violation of these Terms, or your violation of
                 any rights of another.
