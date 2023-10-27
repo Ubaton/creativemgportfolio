@@ -4,7 +4,7 @@ import Glass from "../Glass/Glass";
 
 function TermsAndConditions() {
   const updatedate = {
-    date: "2023/10/27",
+    date: "October 27, 2023",
   };
 
   return (
