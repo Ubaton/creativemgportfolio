@@ -330,15 +330,15 @@ function TermsAndConditions() {
               </h3>
 
               <p className="pl-8">
-                This contract ("Contract") is entered into on the date of
+                This contract (Contract) is entered into on the date of
                 acceptance by the Client and Creative Minds Graphics (Pty) Ltd,
-                a company organized under the laws of South Africa ("Company").
+                a company organized under the laws of South Africa (Company).
               </p>
 
               <p className="pl-8">
                 1. <strong>Services</strong>. The Company agrees to provide the
                 Client with digital arts/graphics design services as specified
-                in Exhibit A attached hereto (the "Services"). The Client agrees
+                in Exhibit A attached hereto (the Services). The Client agrees
                 to pay the Company the fees set forth in Exhibit A for the
                 Services.
               </p>
