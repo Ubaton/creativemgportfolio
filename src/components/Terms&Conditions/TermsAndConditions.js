@@ -126,7 +126,7 @@ function TermsAndConditions() {
                 <li className="pl-8 pb-4">
                   Payment for our services is due upon completion of the
                   project. We accept payment by credit card, bank transfer, or
-                  check. If payment is not received within 30 days (about 4 and
+                  PayPal. If payment is not received within 30 days (about 4 and
                   a half weeks) of the project&rsquo;s completion, a late fee of
                   10% of the total cost will be added.
                 </li>
