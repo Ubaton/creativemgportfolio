@@ -28,24 +28,15 @@ function TermsAndConditions() {
               </p>
 
               <h2 className="text-2xl">1: Introduction</h2>
-              <p className="pl-8">
-                Welcome to Creative Minds Graphics (Pty) Ltd (hereinafter
-                &ldquo;Creative Minds,&rdquo; &ldquo;we,&rdquo;
-                &ldquo;us,&rdquo; or &ldquo;our&rdquo;). These terms and
-                conditions (hereinafter &ldquo;Terms&rdquo;) govern your access
-                to and use of our products and services, including our website
-                and any content, information, or materials made available
-                through our website or other channels (hereinafter
-                &ldquo;Services&rdquo;).
-              </p>
+              <>
+                <p className="pl-8">
+                  {`Welcome to Creative Minds Graphics (Pty) Ltd (hereinafter "Creative Minds," "we," "us," or "our"). These terms and conditions (hereinafter "Terms") govern your access to and use of our products and services, including our website and any content, information, or materials made available through our website or other channels (hereinafter "Services").`}
+                </p>
 
-              <p className="pl-8">
-                &ldquo;Scope of Work&rdquo;: Our company will provide the
-                services specified in the agreed-upon contract between Creative
-                Minds Graphics (Pty) Ltd and the client. Any additional services
-                requested outside the contract&rsquo;s scope will be subject to
-                additional fees.
-              </p>
+                <p className="pl-8">
+                  {`"Scope of Work": Our company will provide the services specified in the agreed-upon contract between Creative Minds Graphics (Pty) Ltd and the client. Any additional services requested outside the contract's scope will be subject to additional fees.`}
+                </p>
+              </>
 
               <p className="pl-8">
                 These meticulously crafted Terms and Conditions stand as the
