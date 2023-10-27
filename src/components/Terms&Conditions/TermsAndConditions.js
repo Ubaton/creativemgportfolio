@@ -237,7 +237,7 @@ function TermsAndConditions() {
                 Section 12: Use of Product for Advertising and Marketing
               </h3>
 
-              <p className="pl-8">
+              {/* <p className="pl-8">
                 By making use of Creative Minds Graphics Pty Ltd's services,
                 including Graphics Arts, Video Editing, Logo Design, Website
                 Development, Photo Editing, and other related services, you
@@ -247,7 +247,7 @@ function TermsAndConditions() {
                 for promotional and marketing activities, whether on social
                 media platforms, printable materials, or any other forms of
                 commercial advertisements.
-              </p>
+              </p> */}
 
               <p className="pl-8">
                 Creative Minds Graphics Pty Ltd may showcase your product as
@@ -257,12 +257,12 @@ function TermsAndConditions() {
                 and helps potential customers to learn about your product.
               </p>
 
-              <p className="pl-8">
+              {/* <p className="pl-8">
                 Your product may be used in advertisements, social media posts,
                 and other marketing materials to promote Creative Minds Graphics
                 Pty Ltd's services and showcase the projects we have
                 collaborated on.
-              </p>
+              </p> */}
 
               <p className="pl-8">
                 If you have any concerns or specific restrictions related to the
@@ -350,7 +350,7 @@ function TermsAndConditions() {
                 specified in Exhibit A.
               </p>
 
-              <p className="pl-8">
+              {/* <p className="pl-8">
                 3.<strong> Intellectual Property Rights</strong>. The Client
                 acknowledges that the Company retains all intellectual property
                 rights in and to the digital arts/graphics designed by the
@@ -359,7 +359,7 @@ function TermsAndConditions() {
                 not use or reproduce the digital arts/graphics in any manner
                 that would infringe on the Company's intellectual property
                 rights.
-              </p>
+              </p> */}
 
               <p className="pl-8">
                 4. <strong>Termination</strong>. This Contract may be terminated
