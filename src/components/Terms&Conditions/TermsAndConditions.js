@@ -28,15 +28,22 @@ function TermsAndConditions() {
               </p>
 
               <h2 className="text-2xl">1: Introduction</h2>
-              <>
-                <p className="pl-8">
-                  {`Welcome to Creative Minds Graphics (Pty) Ltd (hereinafter "Creative Minds," "we," "us," or "our"). These terms and conditions (hereinafter "Terms") govern your access to and use of our products and services, including our website and any content, information, or materials made available through our website or other channels (hereinafter "Services").`}
-                </p>
+              <p className="pl-8">
+                Welcome to Creative Minds Graphics (Pty) Ltd (hereinafter
+                (Creative Minds), (we), (us), or (our)). These terms and
+                conditions (hereinafter (Terms)) govern your access to and use
+                of our products and services, including our website and any
+                content, information, or materials made available through our
+                website or other channels (hereinafter (Services)).
+              </p>
 
-                <p className="pl-8">
-                  {`"Scope of Work": Our company will provide the services specified in the agreed-upon contract between Creative Minds Graphics (Pty) Ltd and the client. Any additional services requested outside the contract's scope will be subject to additional fees.`}
-                </p>
-              </>
+              <p className="pl-8">
+                <strong>Scope of Work</strong>: Our company will provide the
+                services specified in the agreed-upon contract between Creative
+                Minds Graphics (Pty) Ltd and the client. Any additional services
+                requested outside the contract’s scope will be subject to
+                additional fees.
+              </p>
 
               <p className="pl-8">
                 These meticulously crafted Terms and Conditions stand as the
@@ -117,8 +124,8 @@ function TermsAndConditions() {
                 Payment: Payment for our services is due upon completion of the
                 project. We accept payment by credit card, bank transfer, or
                 check. If payment is not received within 30 days (about 4 and a
-                half weeks) of the projects completion, a late fee of 10% of the
-                total cost will be added.
+                half weeks) of the project’s completion, a late fee of 10% of
+                the total cost will be added.
               </p>
 
               <p className="pl-8">
@@ -142,11 +149,10 @@ function TermsAndConditions() {
               <p className="pl-8">
                 We offer a range of products and services, including website
                 development, 3D digital art, photo editing, and video editing.
-                Our products and services are provided on an &ldquo;as is&rdquo;
-                and &ldquo;as available&rdquo; basis, and we do not make any
-                representations or warranties of any kind, express or implied,
-                regarding the quality, accuracy, or completeness of our products
-                or services.
+                Our products and services are provided on an (as is) and (as
+                available) basis, and we do not make any representations or
+                warranties of any kind, express or implied, regarding the
+                quality, accuracy, or completeness of our products or services.
               </p>
 
               <h2 className="text-2xl">5: Intellectual Property</h2>
@@ -172,7 +178,7 @@ function TermsAndConditions() {
               <p className="pl-8">
                 You agree to indemnify and hold Creative Minds and our
                 affiliates, officers, agents, and employees harmless from any
-                claim or demand, including reasonable attorneys fees, made by
+                claim or demand, including reasonable attorneys’ fees, made by
                 any third party due to or arising out of your use of our
                 Services, your violation of these Terms, or your violation of
                 any rights of another.
