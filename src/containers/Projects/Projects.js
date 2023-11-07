@@ -12,13 +12,19 @@ const Projects = () => {
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
   const uniqueCategories = [...new Set(work.map((w) => w.category))];
 
+  // Create a count map to maintain separate counts for each category.
+  const categoryCounts = {};
+
   // Function to load more items in a category
   const loadMore = (category) => {
-    const currentCount = loadMoreCounts[category] || 0;
-    setLoadMoreCounts({
-      ...loadMoreCounts,
-      [category]: currentCount + 3,
-    });
+    const currentCount = categoryCounts[category] || 0;
+    categoryCounts[category] = currentCount + 3;
+    setLoadMoreCounts({ ...loadMoreCounts, ...categoryCounts });
+  };
+
+  // Generate a unique item ID based on category and category-specific index.
+  const generateItemID = (category, index) => {
+    return `${category}-${index}`;
   };
 
   const truncateDescription = (description, maxWords) => {
@@ -70,16 +76,13 @@ const Projects = () => {
                     {work
                       .filter((w) => w.category === category)
                       .slice(0, 6 + (loadMoreCounts[category] || 0))
-                      .map((w, index) => (
-                        <div className="px-4 py-4" key={index}>
+                      .map((w) => (
+                        <div className="px-4 py-4" key={w.id}>
                           {w.url ? (
-                            // If the project has a URL, create a clickable link.
                             <Link
-                              href={w.url
-                                .replace(/^url\(['"]?/, "")
-                                .replace(/['"]?\)$/, "")}
-                              target="_blank"
-                              rel="noopener noreferrer"
+                              href={`/projects/${w.id}`}
+                              key={w.id}
+                              as={`/projects/${w.id}`}
                             >
                               <Card>
                                 {w.category === "Projects" && <Badge />}
@@ -110,8 +113,7 @@ const Projects = () => {
                               </Card>
                             </Link>
                           ) : (
-                            // If the project doesn't have a URL, use Link to navigate.
-                            <Link href={`/projects/${index}`} key={w.id}>
+                            <Link href={`/projects/${w.id}`} key={w.id}>
                               <Card>
                                 {w.category === "Projects" && <Badge />}
 

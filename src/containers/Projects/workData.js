@@ -29,6 +29,7 @@ import Web002 from "../../assets/images/Web/Business.png";
 
 const work = [
   {
+    id: 0,
     title: "The Red and Blue armies",
     category: "Graphic Design",
     description:
@@ -38,6 +39,7 @@ const work = [
     image: Creative01,
   },
   {
+    id: 1,
     title: "Arid Desert Landscape",
     category: "Graphic Design",
     description:
@@ -47,6 +49,7 @@ const work = [
     image: Creative02,
   },
   {
+    id: 2,
     title: "Grand Canyon",
     category: "Graphic Design",
     description:
@@ -56,6 +59,7 @@ const work = [
     image: Creative03,
   },
   {
+    id: 3,
     title: "A Pristine Water Island",
     category: "Graphic Design",
     description:
@@ -65,6 +69,7 @@ const work = [
     image: Creative04,
   },
   {
+    id: 4,
     title: "Christmas Present",
     category: "Graphic Design",
     description:
@@ -74,6 +79,7 @@ const work = [
     image: Creative05,
   },
   {
+    id: 5,
     title: "Molten Lava",
     category: "Graphic Design",
     description:
@@ -83,6 +89,7 @@ const work = [
     image: Creative06,
   },
   {
+    id: 6,
     title: "Heart of the Grand Canyon",
     category: "Graphic Design",
     description:
@@ -92,6 +99,7 @@ const work = [
     image: Creative07,
   },
   {
+    id: 7,
     title: "Frozen South Pole",
     category: "Graphic Design",
     description:
@@ -101,6 +109,7 @@ const work = [
     image: Creative08,
   },
   {
+    id: 8,
     title: "Hidden treasures",
     category: "Graphic Design",
     description:
@@ -110,6 +119,7 @@ const work = [
     image: Creative09,
   },
   {
+    id: 9,
     title: "The Alienic Cube",
     category: "Graphic Design",
     description:
@@ -119,6 +129,7 @@ const work = [
     image: Creative10,
   },
   {
+    id: 10,
     title: "The Sowed Powere",
     category: "Graphic Design",
     description:
@@ -128,6 +139,7 @@ const work = [
     image: Creative11,
   },
   {
+    id: 11,
     title: "Metallica Skull",
     category: "Graphic Design",
     description:
@@ -137,6 +149,7 @@ const work = [
     image: Creative16,
   },
   {
+    id: 12,
     title: "Top View of the Grand Canyon",
     category: "Graphic Design",
     description:
@@ -146,6 +159,7 @@ const work = [
     image: Creative13,
   },
   {
+    id: 13,
     title: "Graphic Designer's Work Station Studio",
     category: "Graphic Design",
     description:
@@ -155,6 +169,7 @@ const work = [
     image: Creative14,
   },
   {
+    id: 14,
     title: "The Graphic Designer's Workstation",
     category: "Graphic Design",
     description:
@@ -163,6 +178,7 @@ const work = [
     image: Creative15,
   },
   {
+    id: 15,
     title: "Production Studio and Work Station",
     category: "Graphic Design",
     description:
@@ -172,6 +188,7 @@ const work = [
     image: Creative12,
   },
   {
+    id: 16,
     title: "The Album Cover",
     category: "Graphic Design",
     description:
@@ -181,6 +198,7 @@ const work = [
     image: Creative17,
   },
   {
+    id: 17,
     title: "Buffet Entertainment Poster",
     category: "Graphic Design",
     description:
@@ -190,6 +208,7 @@ const work = [
     image: Creative18,
   },
   {
+    id: 18,
     title: "PMG Braai Entertainment Poster",
     category: "Graphic Design",
     description:
@@ -199,6 +218,7 @@ const work = [
     image: Creative19,
   },
   {
+    id: 19,
     title: "Senkers Party Poster",
     category: "Graphic Design",
     description:
@@ -208,6 +228,7 @@ const work = [
     image: Creative20,
   },
   {
+    id: 20,
     title: "A Myst Experience Launch Poster",
     category: "Graphic Design",
     description:
@@ -217,6 +238,7 @@ const work = [
     image: Creative21,
   },
   {
+    id: 21,
     title: "Buffet Entertainment Poster",
     category: "Graphic Design",
     description:
@@ -226,6 +248,7 @@ const work = [
     image: Creative22,
   },
   {
+    id: 22,
     title: "Straight Cap Media",
     category: "Graphic Design",
     description:
@@ -235,6 +258,7 @@ const work = [
     image: Creative23,
   },
   {
+    id: 23,
     title: "Kbee's Kitering's Poster",
     category: "Graphic Design",
     description:
@@ -244,6 +268,7 @@ const work = [
     image: Creative24,
   },
   {
+    id: 24,
     title: "QR Code Generator",
     category: "Web Development",
     description:
@@ -254,6 +279,7 @@ const work = [
     url: "url('https://creativemindsgraphic-qrcode-generator.netlify.app/')",
   },
   {
+    id: 25,
     title: "Business Card Generator",
     category: "Web Development",
     description:
@@ -264,6 +290,7 @@ const work = [
     url: "url('https://businesscard-cmg.netlify.app/')",
   },
   {
+    id: 26,
     title: "Creative Minds Graphics (Pty) Ltd",
     category: "Web Development",
     description:
@@ -273,6 +300,7 @@ const work = [
     image: Creative,
   },
   {
+    id: 27,
     title: "Creative Minds Graphics (Pty) Ltd",
     category: "Projects",
     description:
@@ -282,6 +310,7 @@ const work = [
     image: Creative,
   },
   {
+    id: 28,
     title: "Creative Minds Graphics (Pty) Ltd",
     category: "Projects",
     description:
@@ -291,6 +320,7 @@ const work = [
     image: Creative,
   },
   {
+    id: 29,
     title: "Creative Minds Graphics (Pty) Ltd",
     category: "Projects",
     description:
