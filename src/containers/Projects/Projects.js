@@ -12,10 +12,6 @@ const Projects = () => {
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
   const uniqueCategories = [...new Set(work.map((w) => w.category))];
 
-  const openProject = (url) => {
-    window.open(url, "_blank");
-  };
-
   // Function to load more items in a category
   const loadMore = (category) => {
     const currentCount = loadMoreCounts[category] || 0;
