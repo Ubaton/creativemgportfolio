@@ -10,12 +10,20 @@ import Link from "next/link";
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
+  const uniqueCategories = [...new Set(work.map((w) => w.category))];
 
   const openProject = (url) => {
-    window.open(url, "_blank"); // This will open the URL in a new tab/window.
+    window.open(url, "_blank");
   };
 
-  const uniqueCategories = [...new Set(work.map((w) => w.category))];
+  // Function to load more items in a category
+  const loadMore = (category) => {
+    const currentCount = loadMoreCounts[category] || 0;
+    setLoadMoreCounts({
+      ...loadMoreCounts,
+      [category]: currentCount + 3,
+    });
+  };
 
   const truncateDescription = (description, maxWords) => {
     const words = description.split(" ");
@@ -78,8 +86,7 @@ const Projects = () => {
                               rel="noopener noreferrer"
                             >
                               <Card>
-                                {(w.category === "Web Development" ||
-                                  w.category === "Projects") && <Badge />}
+                                {w.category === "Projects" && <Badge />}
 
                                 <div className="p-4">
                                   <h1 className="text-lg font-semibold pb-2">
@@ -110,8 +117,7 @@ const Projects = () => {
                             // If the project doesn't have a URL, use Link to navigate.
                             <Link href={`/projects/${index}`} key={w.id}>
                               <Card>
-                                {(w.category === "Web Development" ||
-                                  w.category === "Projects") && <Badge />}
+                                {w.category === "Projects" && <Badge />}
 
                                 <div className="p-4">
                                   <h1 className="text-lg font-semibold pb-2">
