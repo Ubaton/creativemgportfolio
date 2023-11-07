@@ -25,6 +25,7 @@ import Creative22 from "../../assets/images/PosterImages/CMG_GD022.jpg";
 import Creative23 from "../../assets/images/PosterImages/CMG_GD023.jpg";
 import Creative24 from "../../assets/images/PosterImages/CMG_GD024.jpg";
 import Web001 from "../../assets/images/Web/CMG_QRcodeG.png";
+import Web002 from "../../assets/images/Web/Business.png";
 
 const work = [
   {
@@ -253,13 +254,14 @@ const work = [
     url: "url('https://creativemindsgraphic-qrcode-generator.netlify.app/')",
   },
   {
-    title: "Creative Minds Graphics (Pty) Ltd",
+    title: "Business Card Generator",
     category: "Web Development",
     description:
-      "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
+      "Are you tired of spending hours designing business cards from scratch? Look no further! Our innovative Business Card Generator platform is here to make your life easier. Create stunning business cards in just a few clicks, and stand out in the professional world.",
     year: 2023,
     project: "Web Development",
-    image: Creative,
+    image: Web002,
+    url: "url('https://businesscard-cmg.netlify.app/')",
   },
   {
     title: "Creative Minds Graphics (Pty) Ltd",
