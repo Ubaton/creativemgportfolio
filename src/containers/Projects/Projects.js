@@ -11,20 +11,13 @@ const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
 
-  // Get unique categories from the work items
-  const uniqueCategories = [...new Set(work.map((w) => w.category))];
-
-  // Function to load more items in a category
-  const loadMore = (category) => {
-    const currentCount = loadMoreCounts[category] || 0;
-    setLoadMoreCounts({
-      ...loadMoreCounts,
-      [category]: currentCount + 3,
-    });
+  const openProject = (url) => {
+    window.open(url, "_blank"); // This will open the URL in a new tab/window.
   };
 
-  // Function to truncate the description
-  function truncateDescription(description, maxWords) {
+  const uniqueCategories = [...new Set(work.map((w) => w.category))];
+
+  const truncateDescription = (description, maxWords) => {
     const words = description.split(" ");
 
     if (words.length > maxWords) {
@@ -33,7 +26,7 @@ const Projects = () => {
     }
 
     return description;
-  }
+  };
 
   return (
     <>
@@ -75,36 +68,77 @@ const Projects = () => {
                       .slice(0, 6 + (loadMoreCounts[category] || 0))
                       .map((w, index) => (
                         <div className="px-4 py-4" key={index}>
-                          <Link href={`/projects/${index}`} key={w.id}>
-                            <Card>
-                              {(w.category === "Web Development" ||
-                                w.category === "Projects") && <Badge />}
+                          {w.url ? (
+                            // If the project has a URL, create a clickable link.
+                            <Link
+                              href={w.url
+                                .replace(/^url\(['"]?/, "")
+                                .replace(/['"]?\)$/, "")}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Card>
+                                {(w.category === "Web Development" ||
+                                  w.category === "Projects") && <Badge />}
 
-                              <div className="p-4">
-                                <h1 className="text-lg font-semibold pb-2">
-                                  {w.title}
-                                </h1>
-                                <div className="flex items-center justify-center rounded-lg">
-                                  <Image
-                                    className="rounded-lg"
-                                    src={w.image}
-                                    alt={w.title}
-                                    width={300}
-                                    height={200}
-                                    priority={true}
-                                  />
+                                <div className="p-4">
+                                  <h1 className="text-lg font-semibold pb-2">
+                                    {w.title}
+                                  </h1>
+                                  <div className="flex items-center justify-center rounded-lg">
+                                    <Image
+                                      className="rounded-lg"
+                                      src={w.image}
+                                      alt={w.title}
+                                      width={300}
+                                      height={200}
+                                      priority={true}
+                                    />
+                                  </div>
+                                  <p className="text-sm pt-2">
+                                    {truncateDescription(w.description, 20)}
+                                  </p>
+                                  <hr className="my-2"></hr>
+                                  <p className="text-xs text-gray-600">
+                                    {w.year}
+                                  </p>
+                                  <p>{w.project}</p>
                                 </div>
-                                <p className="text-sm pt-2">
-                                  {truncateDescription(w.description, 20)}
-                                </p>
-                                <hr className="my-2"></hr>
-                                <p className="text-xs text-gray-600">
-                                  {w.year}
-                                </p>
-                                <p>{w.project}</p>
-                              </div>
-                            </Card>
-                          </Link>
+                              </Card>
+                            </Link>
+                          ) : (
+                            // If the project doesn't have a URL, use Link to navigate.
+                            <Link href={`/projects/${index}`} key={w.id}>
+                              <Card>
+                                {(w.category === "Web Development" ||
+                                  w.category === "Projects") && <Badge />}
+
+                                <div className="p-4">
+                                  <h1 className="text-lg font-semibold pb-2">
+                                    {w.title}
+                                  </h1>
+                                  <div className="flex items-center justify-center rounded-lg">
+                                    <Image
+                                      className="rounded-lg"
+                                      src={w.image}
+                                      alt={w.title}
+                                      width={300}
+                                      height={200}
+                                      priority={true}
+                                    />
+                                  </div>
+                                  <p className="text-sm pt-2">
+                                    {truncateDescription(w.description, 20)}
+                                  </p>
+                                  <hr className="my-2"></hr>
+                                  <p className="text-xs text-gray-600">
+                                    {w.year}
+                                  </p>
+                                  <p>{w.project}</p>
+                                </div>
+                              </Card>
+                            </Link>
+                          )}
                         </div>
                       ))}
                   </div>
