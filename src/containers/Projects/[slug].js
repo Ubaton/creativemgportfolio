@@ -1,54 +1,37 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
 
-const GithubProjects = ({ projects }) => {
-  // Create a loading state to track the loading status
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // When the projects prop is available, set loading to false
-    if (projects) {
-      setLoading(false);
-    }
-  }, [projects]);
+const GithubProjectDetails = ({ project }) => {
+  if (!project || !project.name) {
+    return (
+      <div>
+        <h1>GitHub Project Details</h1>
+        <p>Project not found or an error occurred.</p>
+        <Link href="/github-projects">Back to GitHub Projects</Link>
+      </div>
+    );
+  }
 
   return (
     <div>
-      <h1>My GitHub Projects</h1>
-      <ul className="flex items-center justify-center">
-        {loading ? (
-          <div
-            className="animate-spin inline-block w-6 h-6 border-[3px] border-current border-t-transparent text-zinc-300 rounded-full"
-            role="status"
-            aria-label="loading"
-          >
-            <span className="sr-only">Loading...</span>
-          </div>
-        ) : (
-          // If not loading, render the projects
-          <ul>
-            {projects.map((project) => (
-              <li key={project.id}>
-                <Link
-                  href={project.html_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
-      </ul>
+      <h1>GitHub Project Details</h1>
+      <div>
+        <h2>{project.name}</h2>
+        <p>Description: {project.description}</p>
+        <p>Stargazers: {project.stargazers_count}</p>
+        <p>Language: {project.language}</p>
+        <Link href="/github-projects">Back to GitHub Projects</Link>
+      </div>
     </div>
   );
 };
 
 export async function getServerSideProps(context) {
+  const { slug } = context.query; // This gets the slug from the URL
+
   try {
-    // Fetch your GitHub projects using the GitHub API
     const token = process.env.GITHUB_ACCESS_TOKEN;
     const username = process.env.GITHUB_USERNAME;
 
@@ -58,29 +41,30 @@ export async function getServerSideProps(context) {
       },
     };
 
+    // Fetch the specific GitHub project details using the GitHub API
     const response = await axios.get(
-      `https://api.github.com/users/${username}/repos`,
+      `https://api.github.com/repos/${username}/${slug}`,
       config
     );
 
     if (response.status === 200) {
-      const projects = response.data;
+      const project = response.data;
       return {
         props: {
-          projects,
+          project,
         },
       };
     }
   } catch (error) {
-    console.error("Error fetching GitHub projects:", error);
+    console.error("Error fetching GitHub project details:", error);
   }
 
-  // If there's an error, return an empty array of projects
+  // If there's an error or the project doesn't exist, return an empty project
   return {
     props: {
-      projects: [],
+      project: {},
     },
   };
 }
 
-export default GithubProjects;
+export default GithubProjectDetails;

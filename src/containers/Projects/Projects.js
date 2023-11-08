@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import GithubProjects from "./[slug]";
 
-const Projects = ({ projects }) => {
+const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
   const uniqueCategories = [...new Set(work.map((w) => w.category))];
@@ -163,7 +163,12 @@ const Projects = ({ projects }) => {
             </div>
           ))}
           <div className="flex justify-center items-center">
-            <GithubProjects projects={projects} />
+            <Card>
+              <div className="p-4">
+                <h1>My GitHub Projects Page</h1>
+                <Link href="github-projects">Projects</Link>
+              </div>
+            </Card>
           </div>
         </div>
       </Glass>
