@@ -276,7 +276,7 @@ const work = [
     year: 2023,
     project: "Web Development",
     image: Web001,
-    url: "url('https://creativemindsgraphic-qrcode-generator.netlify.app/')",
+    url: "https://creativemindsgraphic-qrcode-generator.netlify.app/",
   },
   {
     id: 25,
@@ -287,7 +287,7 @@ const work = [
     year: 2023,
     project: "Web Development",
     image: Web002,
-    url: "url('https://businesscard-cmg.netlify.app/')",
+    url: "https://businesscard-cmg.netlify.app/",
   },
   {
     id: 26,

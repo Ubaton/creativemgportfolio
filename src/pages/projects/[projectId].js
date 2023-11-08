@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import work from "../../containers/Projects/workData";
 import Image from "next/image";
 import Glass from "@/components/Glass/Glass";
@@ -39,8 +39,21 @@ const ProjectDetails = () => {
           </h1>
         </div>
         <div className="overflow-hidden p-4 w-96 md:w-4/6 relative duration-700 border rounded-xl hover:bg-zinc-800/10 group md:gap-8 hover:border-zinc-400/50 border-zinc-800">
-          <h1 className="text-lg md:text-2xl lg:text-3xl font-semibold">
-            {project.title}
+          <h1 className="flex flex-row justify-between text-lg md:text-2xl lg:text-3xl font-semibold">
+            <span>{project.title}</span>
+            <span className="">
+              {project.url && (
+                <button className="text-sm md:text-base p-2">
+                  <Link
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink />
+                  </Link>
+                </button>
+              )}
+            </span>
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 p-4">
