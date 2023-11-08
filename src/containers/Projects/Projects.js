@@ -6,8 +6,9 @@ import work from "./workData";
 import Badge from "../../components/Badge/Badge";
 import Image from "next/image";
 import Link from "next/link";
+import GithubProjects from "./[slug]";
 
-const Projects = () => {
+const Projects = ({ projects }) => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
   const uniqueCategories = [...new Set(work.map((w) => w.category))];
@@ -161,6 +162,9 @@ const Projects = () => {
               ) : null}
             </div>
           ))}
+          <div className="flex justify-center items-center">
+            <GithubProjects projects={projects} />
+          </div>
         </div>
       </Glass>
     </>
