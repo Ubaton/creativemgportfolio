@@ -21,7 +21,9 @@ const GithubProjects = ({ projects }) => {
       <Navigation />
       <Glass>
         <div className="overflow-y-auto max-h-screen">
-          <h1 className="text-2xl text-center p-4 pt-20">My GitHub Projects</h1>
+          <h1 className="text-center text-4xl font-semibold p-4 pt-20">
+            My GitHub Projects
+          </h1>
           <ul className="flex items-center justify-center">
             {loading ? (
               <div
