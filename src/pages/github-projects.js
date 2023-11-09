@@ -47,7 +47,7 @@ const GithubProjects = ({ projects }) => {
                       {project.name}
 
                       <span className="flex flex-row items-center justify-end gap-2 pt-2">
-                        <Star className="w-4 " />{" "}
+                        <Star className="w-4" />
                         <span>{project.stargazers_count}</span>
                       </span>
                     </li>

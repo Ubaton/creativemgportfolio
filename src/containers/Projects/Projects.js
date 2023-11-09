@@ -8,6 +8,8 @@ import Image from "next/image";
 import Link from "next/link";
 import GithubProjects from "./[slug]";
 
+import Github from "../../assets/icons/Github.png";
+
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
@@ -162,10 +164,15 @@ const Projects = () => {
           ))}
           <div className="flex justify-center items-center">
             <Card>
-              <div className="w-[400px] h-[350px] p-4">
+              <div className="flex flex-col items-center justify-center  w-full h-full p-4">
                 <Badge />
-                <h1>My GitHub Projects Page</h1>
-                <Link href="github-projects">Projects</Link>
+                <h1 className="text-lg font-semibold p-3">
+                  My GitHub Projects Page
+                </h1>
+                <Link href="github-projects">
+                  <p className="text-center ">Projects</p>
+                  <Image src={Github} alt="" className="w-[150px] " />
+                </Link>
               </div>
             </Card>
           </div>
