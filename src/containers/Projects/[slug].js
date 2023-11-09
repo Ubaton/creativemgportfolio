@@ -1,5 +1,4 @@
 import React from "react";
-import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
 
@@ -29,7 +28,7 @@ const GithubProjectDetails = ({ project }) => {
 };
 
 export async function getServerSideProps(context) {
-  const { slug } = context.query; // This gets the slug from the URL
+  const { slug } = context.query;
 
   try {
     const token = process.env.GITHUB_ACCESS_TOKEN;
