@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Link from "next/link";
 import { Card } from "@/components/Card/Card";
+import ProjectNotFound from "@/components/ProjectNotFound/ProjectNotFound";
+import { Star } from "lucide-react";
+import { Navigation } from "@/components/Nav/Nav";
 
 const GithubProjects = ({ projects }) => {
   const [loading, setLoading] = useState(true);
@@ -14,7 +17,8 @@ const GithubProjects = ({ projects }) => {
 
   return (
     <div>
-      <h1>My GitHub Projects</h1>
+      <Navigation />
+      <h1 className="text-2xl text-center p-4 pt-20">My GitHub Projects</h1>
       <ul className="flex items-center justify-center">
         {loading ? (
           <div
@@ -25,32 +29,37 @@ const GithubProjects = ({ projects }) => {
             <span className="sr-only">Loading...</span>
           </div>
         ) : projects && projects.length > 0 ? (
-          <ul className="grid grid-cols-3 gap-4">
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {projects.map((project) => (
-              <Card
-                key={project.id}
-                style={{
-                  width: `${Math.floor(Math.random() * 5 + 2)}rem`,
-                  height: `${Math.floor(Math.random() * 5 + 2)}rem`,
-                }}
+              <Link
+                href={project.html_url}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <div className="p-4">
-                  <li>
-                    <Link
-                      href={project.html_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                <Card
+                  key={project.id}
+                  className={`w-${Math.floor(
+                    Math.random() * 5 + 2
+                  )}/5 h-${Math.floor(Math.random() * 5 + 2)}/5`}
+                >
+                  <div className="p-4">
+                    <li>
                       {project.name}
-                    </Link>
-                    <p>Stargazers: {project.stargazers_count}</p>
-                  </li>
-                </div>
-              </Card>
+
+                      <span className="flex flex-row items-center justify-end gap-2 pt-2">
+                        <Star className="w-4 " />{" "}
+                        <span>{project.stargazers_count}</span>
+                      </span>
+                    </li>
+                  </div>
+                </Card>
+              </Link>
             ))}
           </ul>
         ) : (
-          <p>No GitHub projects available.</p>
+          <div>
+            <ProjectNotFound />
+          </div>
         )}
       </ul>
     </div>

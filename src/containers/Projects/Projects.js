@@ -116,8 +116,6 @@ const Projects = () => {
                           ) : (
                             <Link href={`/projects/${w.id}`} key={w.id}>
                               <Card>
-                                {w.category === "Projects" && <Badge />}
-
                                 <div className="p-4">
                                   <h1 className="text-lg font-semibold pb-2">
                                     {w.title}
@@ -164,7 +162,8 @@ const Projects = () => {
           ))}
           <div className="flex justify-center items-center">
             <Card>
-              <div className="p-4">
+              <div className="w-[400px] h-[350px] p-4">
+                <Badge />
                 <h1>My GitHub Projects Page</h1>
                 <Link href="github-projects">Projects</Link>
               </div>
