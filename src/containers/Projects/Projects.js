@@ -171,7 +171,12 @@ const Projects = () => {
                 </h1>
                 <Link href="github-projects">
                   <p className="text-center ">Projects</p>
-                  <Image src={Github} alt="" className="w-[150px] " />
+                  <Image
+                    src={Github}
+                    alt=""
+                    className="w-[150px]"
+                    priority={true}
+                  />
                 </Link>
               </div>
             </Card>
