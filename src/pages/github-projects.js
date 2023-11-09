@@ -63,7 +63,7 @@ const GithubProjects = ({ projects }) => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Readme
+                          <p>Readme</p>
                         </Link>
                       )}
 
