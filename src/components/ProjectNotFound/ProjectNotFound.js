@@ -7,7 +7,7 @@ const ProjectNotFound = () => {
   return (
     <>
       <Glass>
-        <div className="flex items-center justify-center min-h-screen">
+        <div className="flex items-center justify-center min-h-screen p-12">
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-zinc-50 text-4xl font-semibold ">ERROR 404</h1>
             <h2 className="text-zinc-50 text-6xl font-semibold pb-4">

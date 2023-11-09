@@ -3,7 +3,7 @@ import axios from "axios";
 import Link from "next/link";
 import { Card } from "@/components/Card/Card";
 import ProjectNotFound from "@/components/ProjectNotFound/ProjectNotFound";
-import { Star } from "lucide-react";
+import { Star, GitFork } from "lucide-react";
 import { Navigation } from "@/components/Nav/Nav";
 
 const GithubProjects = ({ projects }) => {
@@ -44,11 +44,37 @@ const GithubProjects = ({ projects }) => {
                     rel="noopener noreferrer"
                   >
                     <li>
-                      {project.name}
+                      <h1 className="text-lg font-semibold p-3">
+                        {project.name}
+                      </h1>
 
-                      <span className="flex flex-row items-center justify-end gap-2 pt-2">
-                        <Star className="w-4" />
-                        <span>{project.stargazers_count}</span>
+                      {project.description && (
+                        <p>
+                          <span className=" font-medium text-zinc-500 ">
+                            Description:
+                          </span>{" "}
+                          {project.description}
+                        </p>
+                      )}
+
+                      {project.readme && (
+                        <Link
+                          href={project.readme.html_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Readme
+                        </Link>
+                      )}
+
+                      <span className="flex flex-row justify-end gap-2">
+                        <span className="flex flex-row items-center justify-end gap-2 pt-2">
+                          <GitFork className="w-4" /> {project.forks_count}
+                        </span>
+                        <span className="flex flex-row items-center justify-end gap-2 pt-2">
+                          <Star className="w-4" />
+                          {project.stargazers_count}
+                        </span>
                       </span>
                     </li>
                   </Link>
