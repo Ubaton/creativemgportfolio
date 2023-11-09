@@ -31,18 +31,18 @@ const GithubProjects = ({ projects }) => {
         ) : projects && projects.length > 0 ? (
           <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {projects.map((project) => (
-              <Link
-                href={project.html_url}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Card
+                key={project.id}
+                className={`w-${Math.floor(
+                  Math.random() * 5 + 2
+                )}/5 h-${Math.floor(Math.random() * 5 + 2)}/5`}
               >
-                <Card
-                  key={project.id}
-                  className={`w-${Math.floor(
-                    Math.random() * 5 + 2
-                  )}/5 h-${Math.floor(Math.random() * 5 + 2)}/5`}
-                >
-                  <div className="p-4">
+                <div className="p-4">
+                  <Link
+                    href={project.html_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <li>
                       {project.name}
 
@@ -51,9 +51,9 @@ const GithubProjects = ({ projects }) => {
                         <span>{project.stargazers_count}</span>
                       </span>
                     </li>
-                  </div>
-                </Card>
-              </Link>
+                  </Link>
+                </div>
+              </Card>
             ))}
           </ul>
         ) : (
