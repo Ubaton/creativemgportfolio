@@ -47,6 +47,7 @@ const Projects = () => {
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
               className="py-2 px-6 rounded-lg m-4"
+              title="Choose an option"
             >
               <option value="">All Categories</option>
               {uniqueCategories.map((category) => (

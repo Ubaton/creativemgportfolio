@@ -1,9 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 const FloatingChatIcon = () => {
   return (
     <div className="fixed right-4 bottom-4 bg-primary text-white p-4 rounded-full cursor-pointer">
-      <a
+      <Link
         href="https://wa.me/c/27795413772"
         target="_blank"
         className="z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange"
@@ -36,7 +37,7 @@ const FloatingChatIcon = () => {
             </g>
           </g>
         </svg>
-      </a>
+      </Link>
     </div>
   );
 };
