@@ -15,19 +15,12 @@ const Projects = () => {
   const [loadMoreCounts, setLoadMoreCounts] = useState({});
   const uniqueCategories = [...new Set(work.map((w) => w.category))];
 
-  // Create a count map to maintain separate counts for each category.
-  const categoryCounts = {};
-
-  // Function to load more items in a category
   const loadMore = (category) => {
-    const currentCount = categoryCounts[category] || 0;
-    categoryCounts[category] = currentCount + 3;
-    setLoadMoreCounts({ ...loadMoreCounts, ...categoryCounts });
-  };
-
-  // Generate a unique item ID based on category and category-specific index.
-  const generateItemID = (category, index) => {
-    return `${category}-${index}`;
+    const currentCount = loadMoreCounts[category] || 0;
+    setLoadMoreCounts({
+      ...loadMoreCounts,
+      [category]: currentCount + 3,
+    });
   };
 
   const truncateDescription = (description, maxWords) => {

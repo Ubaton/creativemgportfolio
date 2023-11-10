@@ -43,7 +43,7 @@ cd yourproject
 
 # Install dependencies
 
-npm install`
+`npm install`
 
 ### Usage
 
