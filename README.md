@@ -49,6 +49,9 @@ cd yourproject
 
 When all installation is complete, remove and add your own data for personal use. Ensure that all actions align with our "Terms of Use/Terms & Conditions."
 
+- Create a GitHub Personal Access Token, and create a `.env` file, in the file put:
+  - `GITHUB_ACCESS_TOKEN= "Your access token"`
+  - `GITHUB_USERNAME= "Your Username"`
 - Modify `workData.js`
 - Update the "image" folder
 - Review and edit the code unrelated to your project
