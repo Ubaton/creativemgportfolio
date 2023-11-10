@@ -102,6 +102,7 @@ const Projects = () => {
                                       width={300}
                                       height={200}
                                       priority={true}
+                                      as="image"
                                     />
                                   </div>
                                   <p className="text-sm pt-2">
@@ -130,6 +131,7 @@ const Projects = () => {
                                       width={300}
                                       height={200}
                                       priority={true}
+                                      as="image"
                                     />
                                   </div>
                                   <p className="text-sm pt-2">
@@ -162,7 +164,7 @@ const Projects = () => {
               ) : null}
             </div>
           ))}
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center gap-4">
             <Card>
               <div className="flex flex-col items-center justify-center  w-full h-full p-4">
                 <Badge />
