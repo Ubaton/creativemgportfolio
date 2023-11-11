@@ -3,7 +3,7 @@
 <img src="https://github.com/Ubaton/creativemgportfolio/blob/master/src/assets/images/The%20Project%20Portfolio.png" alt=""/>
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github.com/Ubaton/creativemgportfolio/issues)](https://github.com/Ubaton/creativemgportfolio/issues)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/yourproject)](https://github.com/Ubaton/creativemgportfolio/issues)
 
 ## Overview
 
