@@ -12,7 +12,7 @@ function TermsAndConditions() {
       <Navigation />
       <Glass>
         <div className="overflow-y-auto max-h-screen ">
-          <div className="container py-20 p-6 mx-auto text-gray-50">
+          <div className="container py-20 p-6 mx-auto text-zinc-50">
             <h1 className="text-2xl font-semibold mb-4 text-center">
               Terms and Conditions
             </h1>
