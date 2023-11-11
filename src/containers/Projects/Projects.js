@@ -97,6 +97,7 @@ const Projects = () => {
                                       height={200}
                                       priority={true}
                                       as="image"
+                                      rel="preload"
                                     />
                                   </div>
                                   <p className="text-sm pt-2">
@@ -126,6 +127,7 @@ const Projects = () => {
                                       height={200}
                                       priority={true}
                                       as="image"
+                                      rel="preload"
                                     />
                                   </div>
                                   <p className="text-sm pt-2">

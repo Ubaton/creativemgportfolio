@@ -64,6 +64,9 @@ const ProjectDetails = () => {
                 alt={project.title}
                 width={600}
                 height={400}
+                priority={true}
+                as="image"
+                rel="preload"
               />
               <p className="pt-2">{project.category}</p>
             </div>
