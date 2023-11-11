@@ -272,7 +272,7 @@ const work = [
     title: "QR Code Generator",
     category: "Web Development",
     description:
-      "A full-service marketing agency offering a wide range of services, including SEO, social media marketing, and content creation. We help businesses grow their online presence.",
+      "Welcome to the QR Code Generator web app, a versatile tool that simplifies the process of generating QR codes. Whether you need QR codes for websites, contact information, or any other purpose, our user-friendly application has you covered.",
     year: 2023,
     project: "Web Development",
     image: Web001,
@@ -283,7 +283,7 @@ const work = [
     title: "Business Card Generator",
     category: "Web Development",
     description:
-      "Are you tired of spending hours designing business cards from scratch? Look no further! Our innovative Business Card Generator platform is here to make your life easier. Create stunning business cards in just a few clicks, and stand out in the professional world.",
+      "The Business Card Generator is a web application that allows you to create professional business card designs with various styles. It offers a simple and user-friendly interface for customizing your business card and then downloading it for printing or digital use.",
     year: 2023,
     project: "Web Development",
     image: Web002,

@@ -25,7 +25,6 @@ const GithubProjects = ({ projects }) => {
             My GitHub Projects
           </h1>
           <div className="flex items-center justify-center">
-            {" "}
             <ul>
               {loading ? (
                 <div
@@ -46,7 +45,6 @@ const GithubProjects = ({ projects }) => {
                     >
                       <div className="p-4">
                         <span className="flex flex-row items-center justify-between">
-                          {" "}
                           <h1 className="text-lg font-semibold p-2">
                             {project.name}
                           </h1>
@@ -63,7 +61,7 @@ const GithubProjects = ({ projects }) => {
                             <p>
                               <span className=" font-medium text-zinc-500 ">
                                 Description:
-                              </span>{" "}
+                              </span>
                               {project.description}
                             </p>
                           )}
