@@ -4,6 +4,8 @@ import Glass from "../Glass/Glass";
 import Link from "next/link";
 // import { Navigation } from "@/components/Nav/Nav";
 
+Modal.setAppElement("#__next");
+
 const BlackFridaySale = () => {
   const [modalIsOpen, setModalIsOpen] = useState(true);
   const [discount, setDiscount] = useState(25);
@@ -45,18 +47,22 @@ const BlackFridaySale = () => {
               This Black Friday, Creative Minds Graphics (Pty) Ltd is excited to
               bring you exclusive discounts on our entire range of products!
               Elevate your creative projects and take advantage of the{" "}
-              <span className="text-zinc-600">{discount}%</span> discount
+              <span className="text-red-600 font-semibold">
+                {discount}% discount
+              </span>{" "}
               available across all our services.
             </p>
             <p>
               Sale Details:
               <br />- Discount:{" "}
-              <span className="text-zinc-600">{discount}%</span>
+              <span className="text-red-600 font-semibold">{discount}%</span>
               <br />
               - Sale Period: November 24, 2023
               <br />- Use Code:{" "}
-              <span className="text-zinc-600">CMGBLACKFRIDAY20</span> at
-              checkout
+              <span className="text-red-600 font-semibold">
+                CMGBLACKFRIDAY25
+              </span>{" "}
+              at checkout
             </p>
             <p>
               Explore our diverse offerings, including web development, graphic
@@ -75,10 +81,16 @@ const BlackFridaySale = () => {
             </p>
             <p>
               Enter the code{" "}
-              <span className="text-zinc-600">CMGBLACKFRIDAY20</span> during
-              checkout to apply the {discount}% discount to your order. Make
-              this Black Friday special by investing in top-notch creative
-              solutions from Creative Minds Graphics (Pty) Ltd.
+              <span className="text-red-600 font-semibold">
+                CMGBLACKFRIDAY25
+              </span>{" "}
+              during checkout to apply the{" "}
+              <span className="text-red-600 font-semibold">
+                {discount}% discount
+              </span>{" "}
+              to your order. Make this Black Friday special by investing in
+              top-notch creative solutions from Creative Minds Graphics (Pty)
+              Ltd.
             </p>
             <p>
               Thank you for choosing Creative Minds Graphics (Pty) Ltd. We look
