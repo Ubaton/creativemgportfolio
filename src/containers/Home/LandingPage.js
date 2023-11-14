@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "@/components/NavBar/NavBar";
 import Particles from "@/assets/Particles/Particles";
 import Glass from "@/components/Glass/Glass";
+import Link from "next/link";
 
 const LandingPage = () => {
   return (
@@ -22,9 +23,12 @@ const LandingPage = () => {
               <br />
               Possibilities, Together.
             </p>
+            <Link href="/blackfriday">
+              <p className="text-red-600 font-semibold">BlackFriday/25</p>
+            </Link>
           </div>
         </div>
-        <h2 className="text-center flex  items-center justify-center  overflow-hidden space-x-2"></h2>
+
         <Particles />
       </Glass>
     </div>
