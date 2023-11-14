@@ -23,9 +23,6 @@ const LandingPage = () => {
               <br />
               Possibilities, Together.
             </p>
-            <Link href="/blackfriday">
-              <p className="text-red-600 font-semibold">BlackFriday/25</p>
-            </Link>
           </div>
         </div>
 
